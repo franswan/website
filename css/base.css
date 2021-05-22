@@ -70,6 +70,19 @@ body {
 	--color-info: #E2173C;
 }
 
+.token {
+  /* The image used */
+  background-image: url("images/tokenomics.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Page Loader */
 .js .loading::before,
 .js .loading::after {
