@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+Font-weight
+100 Thin 
+200 Extra Light
+300 Light
+400 Normal
+500 Medium
+600 Semi Bold
+700 Bold 
+800 Extra Bold
+900 Black */
+
+
+body{
+    background-color: #131313;
+}
+.menu{
+    color: white;
+}
+.navbar{
+    transition: ease 0.5s;
+}
+.nav-link{
+    color:white !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+ul.navbar-nav{
+    margin-right: 50px;
+}
+.nav-item{
+    position: relative;
+}
+ .nav-item::before{
+    position: absolute;
+    bottom: 0px;
+    background-color: #FF5F1F;
+    width: 0px;
+    content: '';
+    height: 3px;
+}
+ .nav-item:hover::before{
+    width: 100%;
+    transition: all 0.5s;
+}
+a.nav-link:hover{
+color:#FF5F1F !important;
+transition: ease 0.5s;
+}
+
+
+.landing-background{
+    background-image:url(../images/Bg.png);
+   
+    width: 100%;
+    height: 1080px;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+.boring{
+    color: #FF5F1F;
+}
+
+.space-300{
+    width: 100%;
+    height: 300px;
+}
+.space-100{
+    width: 100%;
+    height: 100px;
+}
+.space-200{
+    width: 100%;
+    height: 200px;
+}
+.space-400{
+    width: 100%;
+    height: 400px;
+}
+.space-50{
+    width: 100%;
+    height: 50px;
+}
+.space-30{
+    width: 100%;
+    height: 30px;
+}
+.space-20{
+    width: 100%;
+    height: 20px;
+}
+
+.accessBtn{
+    padding: 15px 30px 15px 30px;
+    background: none;
+    border: solid 2px #FF5F1F;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.accessBtn::before{
+    position: absolute;
+    transition: ease 0.5s;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #FF5F1F;
+    border-radius: 12px;
+    color: white;
+}
+.accessBtn:hover::before{
+    transition: ease 0.5s;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+.title-icons-right{
+    position: relative;
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 300px;
+}
+
+.title-icons-left{
+    position: relative;
+    margin-left: -150px;
+    margin-top: -130px;
+    width: 300px;
+}
+
+h1.title{
+    position: absolute;
+    z-index: 1;
+}
+
+.team-img{
+    width: 100%;
+    display: block;
+}
+.mb-10{
+    margin-bottom: 10rem;
+}
+
+.form-control{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white !important;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: solid 2px #FF5F1F;
+    border-radius: 0px;
+    
+}
+.msg{
+    border: solid 2px #FF5F1F;
+    border-radius: 15px;
+}
+.form-control:focus{
+    background-color: transparent;
+    box-shadow: none;
+    border-color: #FF5F1F ;
+}
+
+.btnContact{
+    padding: 15px 30px 15px 30px;
+    background-color: #FF5F1F;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    border-radius: 15px;
+}
+
